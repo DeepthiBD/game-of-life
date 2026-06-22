@@ -1,0 +1,468 @@
+{
+  "app": {
+    "name": "LifePilot",
+    "tagline": "Navigate your life journey",
+    "loading": "Loading your adventure...",
+    "error": "Something got turbulent",
+    "retry": "Try again",
+    "back": "Back",
+    "next": "Next",
+    "done": "Done!",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "confirm": "Confirm",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "share": "Share",
+    "add": "Add",
+    "remove": "Remove",
+    "settings": "Settings",
+    "profile": "Pilot Profile",
+    "logout": "Log out",
+    "offline": "You're offline — your journey data is safe",
+    "online": "Back in the skies!",
+    "version": "Version",
+    "comingSoon": "Coming soon on your journey",
+    "explore": "Explore",
+    "start": "Start",
+    "continue": "Continue"
+  },
+  "nav": {
+    "cockpit": "Cockpit",
+    "pilot": "Pilot Profile",
+    "flightPlan": "Flight Plan",
+    "flightLog": "Flight Log",
+    "moneyQuest": "Money Quest",
+    "lifeChoices": "Life Choices",
+    "careerExplorer": "Career Explorer",
+    "futureMe": "Future Me",
+    "futureYou": "Future You",
+    "home": "Home",
+    "settings": "Settings"
+  },
+  "modules": {
+    "cockpit": {
+      "name": "Cockpit",
+      "description": "Your mission control — see your whole journey at a glance",
+      "welcome": "Welcome back, Captain {{name}}!",
+      "welcomeMorning": "Good morning, Captain {{name}}! Ready for today's mission?",
+      "welcomeAfternoon": "Good afternoon, Captain {{name}}! Your journey continues.",
+      "welcomeEvening": "Good evening, Captain {{name}}! Time to reflect on today.",
+      "placeholder": "Your Cockpit is loading..."
+    },
+    "pilot": {
+      "name": "Pilot Profile",
+      "description": "Your identity, your story, your growth",
+      "placeholder": "Your Pilot Profile is loading..."
+    },
+    "flightPlan": {
+      "name": "Flight Plan",
+      "description": "Set your destinations and chart your course",
+      "placeholder": "Your Flight Plan is loading..."
+    },
+    "flightLog": {
+      "name": "Flight Log",
+      "description": "Capture your daily journey — moments, moods, and reflections",
+      "placeholder": "Your Flight Log is loading..."
+    },
+    "moneyQuest": {
+      "name": "Money Quest",
+      "description": "Adventures in earning, saving, and growing your future",
+      "placeholder": "Money Quest is loading..."
+    },
+    "lifeChoices": {
+      "name": "Life Choices",
+      "description": "Explore your values through real-life adventures",
+      "placeholder": "Life Choices is loading..."
+    },
+    "careerExplorer": {
+      "name": "Career Explorer",
+      "description": "Explore worlds of possibility for your future",
+      "placeholder": "Career Explorer is loading..."
+    },
+    "futureMe": {
+      "name": "Future Me",
+      "description": "Messages to and from your future self",
+      "placeholder": "Future Me is loading..."
+    }
+  },
+  "cockpit": {
+    "greetingMorning": "Good morning, Captain!",
+    "greetingAfternoon": "Good afternoon, Captain!",
+    "greetingEvening": "Good evening, Captain!",
+    "todaysMission": "Today's Mission",
+    "journeyProgress": "Journey Progress",
+    "continueAdventure": "Continue Adventure",
+    "exploreNewPaths": "Explore New Paths",
+    "upcomingMilestones": "Upcoming Milestones",
+    "messageFromFutureYou": "Message From Future You",
+    "futureLetterWaiting": "A message from your future self is waiting...",
+    "futureLetterOpen": "Open your message",
+    "noMissionsToday": "No missions today — choose your next adventure",
+    "streakDays": "{{count}} day streak",
+    "streakDaysPlural": "{{count}} day streak",
+    "keepFlying": "Keep flying! ✈️",
+    "pilotLevel": "Pilot Level {{level}}",
+    "xpToNextLevel": "{{xp}} XP to next level",
+    "exploreModules": "Explore your world",
+    "continueJourney": "Continue your journey"
+  },
+  "flightPlan": {
+    "title": "Flight Plan",
+    "addGoal": "Set a new flight plan",
+    "noGoals": "Your Flight Plan awaits. Where do you want to go?",
+    "noGoalsAction": "Set your first destination",
+    "goalStatus": {
+      "active": "In flight",
+      "completed": "Landed!",
+      "paused": "On the ground",
+      "abandoned": "Course changed"
+    },
+    "goalCategory": {
+      "academic": "Learning",
+      "personal": "Personal Growth",
+      "health": "Health & Wellbeing",
+      "creative": "Creative",
+      "social": "Relationships",
+      "financial": "Money Quest",
+      "career": "Career",
+      "spiritual": "Inner Journey",
+      "other": "Other Adventure"
+    },
+    "createGoal": {
+      "title": "Where do you want to go?",
+      "namePlaceholder": "My destination is...",
+      "categoryLabel": "What kind of adventure?",
+      "targetDateLabel": "When do you want to arrive?",
+      "targetDateOptional": "Optional",
+      "whyLabel": "Why does this matter to you?",
+      "whyPlaceholder": "Because...",
+      "launch": "Launch!",
+      "launched": "Flight Plan launched! ✈️"
+    },
+    "progress": "Journey progress",
+    "milestones": "Milestones",
+    "addMilestone": "Add a checkpoint",
+    "completeMilestone": "Reached!",
+    "completeGoal": "Mark as landed",
+    "goalCompleted": "You've landed! 🎉",
+    "filterAll": "All flights",
+    "filterActive": "In flight",
+    "filterCompleted": "Landed"
+  },
+  "flightLog": {
+    "title": "Flight Log",
+    "addEntry": "Log a moment",
+    "noEntries": "Your Flight Log is ready for its first entry. What's on your mind?",
+    "noEntriesAction": "Write your first moment",
+    "moodPrompt": "How are you feeling right now?",
+    "moods": {
+      "1": "Struggling",
+      "2": "A little low",
+      "3": "Okay",
+      "4": "Good",
+      "5": "Amazing!"
+    },
+    "prompts": {
+      "surprise": "What surprised you today?",
+      "smile": "What made you smile today?",
+      "gratitude": "What would Future You thank you for?",
+      "challenge": "What challenge helped you grow?",
+      "learning": "What did you discover today?",
+      "tomorrow": "What are you looking forward to tomorrow?",
+      "proud": "What are you proud of today?",
+      "kindness": "How did you show kindness today?"
+    },
+    "entryPlaceholder": "What's on your mind today?",
+    "entryCharLimit": "{{count}} characters",
+    "landIt": "Land it",
+    "landed": "Logged! ✨",
+    "private": "Just for me",
+    "reflectionTypes": {
+      "daily": "Daily check-in",
+      "gratitude": "Gratitude moment",
+      "challenge": "Challenge reflection",
+      "growth": "Growth moment",
+      "future": "Future thinking",
+      "mood": "Mood check-in"
+    }
+  },
+  "futureMe": {
+    "title": "Future Me",
+    "subtitle": "Messages across time",
+    "writeToFuture": "Write to Future You",
+    "noLetters": "Your first message to Future You is waiting to be written.",
+    "noLettersAction": "Write to Future You",
+    "letterWaiting": "A message from your past self is waiting...",
+    "letterWaitingSubtitle": "Open and read your message",
+    "futureHorizon": "Future Horizon",
+    "journeyThroughTime": "Journey Through Time",
+    "to": "To Future {{name}}",
+    "from": "From Past {{name}}",
+    "deliverOn": "Your future self will read this on {{date}}",
+    "sent": "Sent to the future! ✨",
+    "sentSubtitle": "Your message is on its way to Future You",
+    "open": "Open your message",
+    "letterEditor": {
+      "title": "What do you want to say?",
+      "placeholder": "Dear Future Me,\n\nRight now I am...",
+      "deliveryDate": "When should Future You read this?",
+      "send": "Send to the future",
+      "oneMonth": "1 month from now",
+      "threeMonths": "3 months from now",
+      "sixMonths": "6 months from now",
+      "oneYear": "1 year from now",
+      "custom": "Choose a date"
+    },
+    "readingExperience": {
+      "openEnvelope": "Open your message",
+      "from": "This message was written by you on {{date}}",
+      "reply": "Write back to Future You"
+    }
+  },
+  "careerExplorer": {
+    "title": "Career Explorer",
+    "subtitle": "Worlds of possibility await",
+    "exploreWorlds": "Explore Career Worlds",
+    "noExplorations": "Your first Career World is just one tap away.",
+    "noExplorationsAction": "Start exploring",
+    "worlds": {
+      "law": "⚖️ Law World",
+      "space": "🚀 Space World",
+      "health": "🏥 Health World",
+      "technology": "💻 Technology World",
+      "design": "🎨 Design World",
+      "entrepreneurship": "📈 Entrepreneurship World",
+      "education": "📚 Education World",
+      "environment": "🌿 Environment World",
+      "sports": "🏆 Sports World",
+      "arts": "🎭 Arts World",
+      "agriculture": "🌾 Agriculture World",
+      "government": "🏛️ Public Service World"
+    },
+    "exploreCareer": "Explore this path",
+    "addToMyPath": "Add to my path",
+    "removeFromPath": "Remove from path",
+    "roadmap": "Adventure Path",
+    "roadmapStep": "Step {{number}}",
+    "skills": "Skills for this journey",
+    "interestRating": "How excited are you about this path?",
+    "myPaths": "My Career Paths",
+    "savedPaths": "Saved paths"
+  },
+  "moneyQuest": {
+    "title": "Money Quest",
+    "subtitle": "Adventures in your financial future",
+    "exploreConcepts": "Start your quest",
+    "noConcepts": "Your Money Quest adventure is about to begin!",
+    "noConceptsAction": "Start your first quest",
+    "conceptTypes": {
+      "saving": "Saving",
+      "budgeting": "Budgeting",
+      "earning": "Earning",
+      "investing": "Investing",
+      "giving": "Giving",
+      "spending": "Smart Spending"
+    },
+    "difficulty": {
+      "beginner": "Explorer",
+      "intermediate": "Adventurer",
+      "advanced": "Master"
+    },
+    "scenario": {
+      "youHave": "You have {{amount}}",
+      "whatDoYouDo": "What do you do?",
+      "choose": "Make your choice",
+      "reveal": "See what happens",
+      "learnMore": "Dive deeper"
+    },
+    "xpEarned": "{{xp}} XP earned!",
+    "conceptCompleted": "Quest complete! 🏆",
+    "progress": "Quest progress"
+  },
+  "lifeChoices": {
+    "title": "Life Choices",
+    "subtitle": "Discover your values through adventure",
+    "exploreScenarios": "Explore a scenario",
+    "noScenarios": "Your first Life Choice adventure is waiting.",
+    "noScenariosAction": "Start exploring",
+    "scenario": {
+      "youHave": "Here's your situation:",
+      "choose": "What do you choose?",
+      "yourChoice": "You chose:",
+      "outcome": "Here's what happened...",
+      "reflection": "What does this choice say about you?",
+      "reflect": "Reflect on this",
+      "tryAnother": "Explore another scenario"
+    },
+    "values": {
+      "family": "Family",
+      "friendship": "Friendship",
+      "honesty": "Honesty",
+      "kindness": "Kindness",
+      "courage": "Courage",
+      "creativity": "Creativity",
+      "learning": "Learning",
+      "health": "Health",
+      "community": "Community",
+      "environment": "Environment"
+    },
+    "myValues": "My Values Constellation",
+    "choiceRevealed": "Choice revealed! ✨"
+  },
+  "pilot": {
+    "title": "Pilot Profile",
+    "level": "Level {{level}} Pilot",
+    "ranks": {
+      "junior": "Junior Pilot",
+      "explorer": "Explorer",
+      "navigator": "Navigator",
+      "captain": "Captain",
+      "ace": "Ace Pilot"
+    },
+    "xp": "{{xp}} XP",
+    "totalXp": "Total XP earned",
+    "streak": "{{count}} day journey",
+    "streak_plural": "{{count}} day journey",
+    "goalsCompleted": "Flights landed",
+    "missionsCompleted": "Missions accomplished",
+    "reflections": "Moments logged",
+    "badges": "Explorer Badges",
+    "growthMoments": "Growth Moments",
+    "editProfile": "Edit my profile",
+    "chooseAvatar": "Choose your pilot",
+    "name": "Pilot name",
+    "age": "Age",
+    "grade": "Grade",
+    "city": "City",
+    "language": "Preferred language",
+    "joinedOn": "Flying since {{date}}",
+    "xpHistory": "XP Journey",
+    "achievementUnlocked": "New milestone unlocked! 🏅"
+  },
+  "missions": {
+    "title": "Missions",
+    "available": "Available missions",
+    "inProgress": "In progress",
+    "completed": "Accomplished",
+    "difficulty": {
+      "easy": "Starter",
+      "medium": "Explorer",
+      "hard": "Challenger",
+      "epic": "Legend"
+    },
+    "xpReward": "{{xp}} XP",
+    "start": "Accept mission",
+    "complete": "Mark as accomplished",
+    "accomplished": "Mission accomplished! 🎉",
+    "noMissions": "No missions available right now — check back soon!"
+  },
+  "habits": {
+    "title": "Habits",
+    "addHabit": "Start a new habit",
+    "noHabits": "Build your first habit and start your streak.",
+    "noHabitsAction": "Start a habit",
+    "frequency": {
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly"
+    },
+    "streak": "{{count}} day streak 🔥",
+    "longestStreak": "Best: {{count}} days",
+    "logToday": "Log today",
+    "logged": "Done for today! ✅",
+    "categories": {
+      "health": "Health",
+      "learning": "Learning",
+      "mindfulness": "Mindfulness",
+      "creativity": "Creativity",
+      "social": "Connection",
+      "other": "Other"
+    }
+  },
+  "gamification": {
+    "xpEarned": "+{{xp}} XP",
+    "levelUp": "Level up! You're now a {{rank}}! 🚀",
+    "newBadge": "New Explorer Badge unlocked! 🏅",
+    "streakMilestone": "{{count}} day journey! You're on a roll! ✈️",
+    "goalCompleted": "Flight plan complete! 🎉",
+    "missionAccomplished": "Mission accomplished! 🎯",
+    "habitStreak": "Habit streak: {{count}} days! 🔥",
+    "growthMoment": "Growth moment! You're becoming more! ✨",
+    "keepGoing": "Every step forward counts. Keep flying!"
+  },
+  "onboarding": {
+    "welcome": "Welcome to LifePilot",
+    "welcomeSubtitle": "Your life adventure begins here",
+    "step1Title": "What's your name, Pilot?",
+    "step1Placeholder": "My name is...",
+    "step2Title": "How old are you?",
+    "step2Subtitle": "So we can make your journey just right for you",
+    "step3Title": "Choose your language",
+    "step3Subtitle": "LifePilot speaks your language",
+    "step4Title": "Choose your Pilot",
+    "step4Subtitle": "This is you on your adventure",
+    "step5Title": "Ready for takeoff?",
+    "step5Subtitle": "Your adventure is about to begin!",
+    "takingOff": "Taking off! ✈️",
+    "letsGo": "Let's go!",
+    "next": "Next"
+  },
+  "offline": {
+    "banner": "You're offline — your journey data is safe on this device",
+    "dataIsSafe": "Everything you've saved is here, ready for you"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "languageDescription": "Choose your preferred language",
+    "theme": "Appearance",
+    "themeLight": "Light skies",
+    "themeDark": "Night mode",
+    "themeSystem": "Follow my device",
+    "fontSize": "Text Size",
+    "fontSizeSmall": "Small",
+    "fontSizeMedium": "Medium",
+    "fontSizeLarge": "Large",
+    "notifications": "Mission Alerts",
+    "notificationsDescription": "Get reminders for your journey",
+    "about": "About LifePilot",
+    "version": "Version",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "dataExport": "Export my journey data",
+    "deleteAccount": "Delete my profile"
+  },
+  "errors": {
+    "generic": "Oops! Something got turbulent. Let's try again.",
+    "offline": "You're offline. Your saved adventures are still here.",
+    "storageError": "Couldn't save that. Please try again.",
+    "notFound": "This path doesn't exist",
+    "notFoundDescription": "Looks like this part of the map is uncharted territory.",
+    "goHome": "Back to Cockpit"
+  },
+  "accessibility": {
+    "skipToContent": "Skip to main content",
+    "openMenu": "Open navigation",
+    "closeMenu": "Close navigation",
+    "toggleTheme": "Toggle appearance",
+    "selectLanguage": "Select language",
+    "closeDialog": "Close",
+    "goalProgress": "{{title}} — {{percent}}% complete",
+    "habitDone": "Mark {{habit}} as done",
+    "openLetter": "Open message from your past self",
+    "loading": "Loading your adventure...",
+    "xpBar": "{{current}} of {{total}} XP to Level {{level}}"
+  },
+  "pwa": {
+    "installPrompt": "Add LifePilot to your home screen",
+    "installButton": "Install",
+    "installLater": "Maybe later",
+    "updateAvailable": "A new adventure update is ready",
+    "updateNow": "Update now"
+  }
+}
